@@ -222,6 +222,13 @@ body {
 	margin-top: 15px;
 }
 
+/* Fix 9(IN PROGRESS): Miglioramenti al button */
+.save-btn:hover {
+    background-color: #3e912a;
+    box-shadow: 0 4px 10px rgb(8, 8, 148);
+    transition: background-color 0.3s linear, box-shadow 0.3s linear;
+}
+/* Fix 7-8: Focus sui campi input */
 input:focus,
 select:focus {
     border: 2px solid rgb(8, 8, 148);
@@ -305,7 +312,26 @@ select:focus {
 	text-align: center;
 	position: relative;
 	font-style: italic;
+    position: relative;
 }
+
+/* Fix 12 */
+.quote-box p::before {
+    content: '"';
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}
+
+.quote-box p::after {
+    content: '"';
+    font-size: 40px;
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+
 
 /* Spacer per la navigation fissa */
 .bottom-spacer {
