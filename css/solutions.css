@@ -302,6 +302,17 @@ select:focus {
 	margin-bottom: 3px;
 }
 
+/* Fix 11-12: Migliorie alla navigazione */
+.nav-item:hover {
+    background: #0e1924;
+    color: #0195f8;
+}
+
+.nav-item:first-child {
+    color: #0195f8;
+    background: #0e1924
+}
+
 /* Quote inspirational */
 .quote-box {
 	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -315,7 +326,7 @@ select:focus {
     position: relative;
 }
 
-/* Fix 12 */
+/* Fix 13: Virgolette alla citazione */
 .quote-box p::before {
     content: '"';
     font-size: 40px;
