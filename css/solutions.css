@@ -45,6 +45,10 @@ body {
 	text-align: center;
 }
 
+.stats-grid:hover {}
+    /* Effetto sollevamento e ombra da inserire
+
+
 /* Fix 1: Icona fuoco nella prima stat card */
 .stats-grid:first-child span::before {
     display: block;
@@ -135,6 +139,12 @@ body {
 .advanced {
 	background: #e74c3c;
 	color: white;
+}
+ 
+/* Fix 4: Evidenziare il secondo piano allenamento */
+.workout-plan:nth-of-type(2) {
+    border-left: 2px solid #ff9b17;
+    background-color: rgb(245, 245, 178);
 }
 
 /* Exercise List */
