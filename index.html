@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitApp - La tua app fitness</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>FitApp</h1>
+    <p>Il tuo compagno di allenamento personale</p>
+  </header>
+
+  <section class="stats-container">
+    <div class="stats-grid">
+      <span class="stat-number">127</span>
+      <div class="stat-label">Calorie bruciate oggi</div>
+    </div>
+
+    <div class="stats-grid">
+      <span class="stat-number">3.2</span>
+      <div class="stat-label">Km percorsi</div>
+    </div>
+
+    <div class="stats-grid">
+      <span class="stat-number">45</span>
+      <div class="stat-label">Minuti di allenamento</div>
+    </div>
+  </section>
+
+  <section class="workout-section">
+
+    <h2 class="section-title">Piani di Allenamento</h2>
+
+    <article class="workout-plan">
+      <span class="difficulty beginner">Principiante</span>
+      <h3>Cardio Mattutino</h3>
+      <p>Perfetto per iniziare la giornata con energia</p>
+      <span class="duration">30 minuti</span>
+    </article>
+
+    <article class="workout-plan">
+      <span class="difficulty intermediate">Intermedio</span>
+      <h3>Forza e Resistenza</h3>
+      <p>Costruisci massa muscolare e migliora la resistenza</p>
+      <span class="duration">45 minuti</span>
+    </article>
+
+    <article class="workout-plan">
+      <span class="difficulty advanced">Avanzato</span>
+      <h3>HIIT Intensivo</h3>
+      <p>Allenamento ad alta intensità per massimi risultati</p>
+      <span class="duration">25 minuti</span>
+    </article>
+  </section>
+
+
+
+  <h2 class="section-title">Esercizi di Oggi</h2>
+
+  <div style="margin: 0 20px;">
+    <div class="exercise-item">
+      <div class="exercise-name">Push-up</div>
+      <div class="exercise-reps">3 serie x 12 ripetizioni</div>
+    </div>
+
+    <div class="exercise-item">
+      <div class="exercise-name">Squat</div>
+      <div class="exercise-reps">3 serie x 15 ripetizioni</div>
+    </div>
+
+    <div class="exercise-item">
+      <div class="exercise-name">Plank</div>
+      <div class="exercise-reps">3 serie x 30 secondi</div>
+    </div>
+
+    <div class="exercise-item">
+      <div class="exercise-name">Mountain Climbers</div>
+      <div class="exercise-reps">3 serie x 20 ripetizioni</div>
+    </div>
+  </div>
+
+  <section class="progress-section">
+    <h3>I Tuoi Progressi</h3>
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+    <div class="progress-text">65% dell'obiettivo settimanale</div>
+  </section>
+
+  <div class="quote-box">
+    <p>Il successo non è definitivo, il fallimento non è fatale: è il coraggio di continuare che conta.</p>
+  </div>
+
+  <section class="goals-container">
+    <h3>Imposta i Tuoi Obiettivi</h3>
+
+    <div class="goal-input-group">
+      <label>Peso obiettivo (kg)</label>
+      <input type="number" placeholder="75">
+    </div>
+
+    <div class="goal-input-group">
+      <label>Allenamenti a settimana</label>
+      <select>
+        <option>Seleziona...</option>
+        <option value="3">3 volte</option>
+        <option value="4">4 volte</option>
+        <option value="5">5 volte</option>
+      </select>
+    </div>
+
+    <div class="goal-input-group">
+      <label>Note personali</label>
+      <input type="text" placeholder="Es: Voglio correre una maratona">
+    </div>
+
+    <button class="save-btn">Salva Obiettivi</button>
+  </section>
+
+  <div class="bottom-spacer"></div>
+
+  <nav class="nav-footer">
+    <a href="#home" class="nav-item">
+      <span class="nav-icon">🏠</span>
+      <span>Home</span>
+    </a>
+    <a href="#workouts" class="nav-item">
+      <span class="nav-icon">💪</span>
+      <span>Allenamenti</span>
+    </a>
+    <a href="#progress" class="nav-item">
+      <span class="nav-icon">📊</span>
+      <span>Progressi</span>
+    </a>
+    <a href="#profile" class="nav-item">
+      <span class="nav-icon">👤</span>
+      <span>Profilo</span>
+    </a>
+  </nav>
+</body>
+
+</html>
