@@ -45,6 +45,7 @@ body {
 	text-align: center;
 }
 
+/* Fix 3: Effetto hover sulle stat cards */
 .stats-grid:hover {
     translate: 0 -5px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
@@ -144,9 +145,9 @@ body {
 }
  
 /* Fix 4: Evidenziare il secondo piano allenamento */
-.workout-plan:nth-of-type(2) {
+article:nth-of-type(2) {
     border-left: 3px solid #ff9b17;
-    background-color: rgb(245, 245, 178);
+    background-color: rgb(241 241 210);
 }
 
 /* Exercise List */
@@ -170,8 +171,8 @@ body {
 }
 
 /* Fix 5: Bordi verdi per primo e ultimo esercizio */
-.exercise-item:first-of-type,
-.exercise-item:last-of-type {
+.exercise-item:first-child,
+.exercise-item:last-child {
     border-left: 3px solid green;
 }
 
@@ -235,7 +236,7 @@ body {
 input:focus,
 select:focus {
     border: 2px solid rgb(8, 8, 148);
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
     transition: border 0.3s ease-in, box-shadow 0.3s ease-in;
 }
 
