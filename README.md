@@ -65,7 +65,7 @@ Aggiungere una transizione fluida per l'effetto
 Il button "Salva Obiettivi" deve sollevarsi di 2px quando ci passi sopra il mouse
 Cambiare anche il colore di sfondo e Aggiungere un'ombra blu
 
-✅ 📊 Percentuale nella barra di progresso
+✅ 10. 📊 Percentuale nella barra di progresso
 
 Mostra "65%" in bianco dentro la barra di progresso, allineato a destra
 

@@ -166,7 +166,6 @@ article:nth-of-type(2) {
 	font-weight: bold;
 	color: #2c3e50;
 	margin-bottom: 5px;
-	line-height: 1;
 }
 
 .exercise-reps {
@@ -178,6 +177,7 @@ article:nth-of-type(2) {
 .exercise-item:first-child,
 .exercise-item:last-child {
     border-left: 3px solid green;
+	background-color: #d5f1e1;
 }
 
 /* Fix 6: Icona fulmine negli esercizi pari */
@@ -185,7 +185,7 @@ article:nth-of-type(2) {
     content: '⚡';
 	font-size: 10px;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: text-bottom;
 }
 
 /* Goals Section */
@@ -281,11 +281,10 @@ select {
     content: '65%';
     color: white;
     font-size: 10px;
-    font-weight: 600;
     position: absolute;
     top: 50%;
-    right: 0;
-	translate: 0 -50%;
+    right: 10px;
+	Translate: 0 -50%;
 }
 
 .progress-text {
@@ -358,15 +357,17 @@ select {
     font-size: 40px;
     position: absolute;
     top: 5px;
-    left: 15px;
+    left: 10px;
+	opacity: 40%;
 }
 
 .quote-box p::after {
     content: '"';
     font-size: 40px;
     position: absolute;
-    bottom: 0px;
-    right: 100px;
+    bottom: 5px;
+    right: 10px;
+	opacity: 40%;
 }
 
 /* Spacer per la navigation fissa */
