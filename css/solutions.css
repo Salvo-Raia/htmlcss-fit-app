@@ -49,7 +49,10 @@ body {
 .stats-grid:hover {
     translate: 0 -5px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    transition: translate 0.5s ease-in, box-shadow 0.5s ease-in;
+}
+
+.stats-grid {
+	transition: translate 0.5s ease-in, box-shadow 0.5s ease-in;
 }
 
 /* Fix 1: Icona fuoco nella prima stat card */
@@ -163,6 +166,7 @@ article:nth-of-type(2) {
 	font-weight: bold;
 	color: #2c3e50;
 	margin-bottom: 5px;
+	line-height: 1;
 }
 
 .exercise-reps {
@@ -181,9 +185,7 @@ article:nth-of-type(2) {
     content: '⚡';
 	font-size: 10px;
     display: inline-block;
-	position: relative;
-	top: -3px;
-    right: 3px;
+    vertical-align: middle;
 }
 
 /* Goals Section */
@@ -225,25 +227,29 @@ article:nth-of-type(2) {
 	cursor: pointer;
 	width: 100%;
 	margin-top: 15px;
+	transition: translate 0.5s ease-in, box-shadow 0.5s ease-in;
 }
 
 /* Fix 9: Miglioramenti al button */
 .save-btn:hover {
     translate: 0 -2px;
     background-color: #3e912a;
-    box-shadow: 0 5px 10px rgb(8, 8, 148);
+    box-shadow: 0 5px 5px rgb(95 112 175 / 42%);
     background-color 0.3s ease-in
-	transition: translate 0.5s ease-in, box-shadow 0.5s ease-in;
 }
 
 /* Fix 7-8: Focus sui campi input */
 input:focus,
 select:focus {
-    border: 2px solid rgb(8, 8, 148);
-    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
-    transition: border 0.1s linear, box-shadow 0.1s linear;
+    border: 1px solid rgb(8, 8, 148);
+    box-shadow: 0 5px 5px rgb(95 112 175 / 42%);
 }
 
+input,
+select {
+	outline: none;
+	transition: border 0.1s linear, box-shadow 0.1s linear;
+}
 /* Progress Bar */
 .progress-section {
 	background: white;
@@ -277,9 +283,9 @@ select:focus {
     font-size: 10px;
     font-weight: 600;
     position: absolute;
-    top: -3px;
+    top: 50%;
     right: 0;
-
+	translate: 0 -50%;
 }
 
 .progress-text {
