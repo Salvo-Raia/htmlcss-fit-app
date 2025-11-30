@@ -150,7 +150,7 @@ body {
 /* Fix 4: Evidenziare il secondo piano allenamento */
 article:nth-of-type(2) {
     border-left: 3px solid #ff9b17;
-    background-color: rgb(241 241 210);
+    background-color: rgb(253 236 177);
 }
 
 /* Exercise List */
@@ -184,8 +184,7 @@ article:nth-of-type(2) {
 .exercise-item:nth-of-type(even) .exercise-name::before {
     content: '⚡';
 	font-size: 10px;
-    display: inline-block;
-    vertical-align: text-bottom;
+    display: block;
 }
 
 /* Goals Section */
@@ -329,13 +328,13 @@ select {
 
 /* Fix 11-12: Migliorie alla navigazione */
 .nav-item:hover {
-    background: #0e1924;
+    background: rgb(52 73 94);
     color: #0195f8;
 }
 
 .nav-item:first-child {
     color: #0195f8;
-    background: #0e1924
+    background: rgb(52 73 94);
 }
 
 /* Quote inspirational */
