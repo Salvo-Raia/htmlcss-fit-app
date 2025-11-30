@@ -234,7 +234,7 @@ article:nth-of-type(2) {
     translate: 0 -2px;
     background-color: #3e912a;
     box-shadow: 0 5px 5px rgb(95 112 175 / 42%);
-    background-color 0.3s ease-in
+    transition: background-color 0.3s ease-in;
 }
 
 /* Fix 7-8: Focus sui campi input */
