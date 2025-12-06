@@ -22,13 +22,13 @@ La lista delle modifiche richieste si trova nel file readme.md della cartella ch
 
 **Suggerimenti e Note**
 
-* Per gli pseudo-elementi ::before e ::after non dimenticate content
+* Per gli pseudo-elementi `::before` e `::after` non dimenticate `content`
 
-* Per centrare contenuto in pseudo-elementi usate positione translate
+* Per centrare contenuto in pseudo-elementi usate `position` e `translate`
 
 **Bonus**
 
-Proviamo a rendere i cambiamenti più fluidi studiando e sfruttando la proprietà transition
+Proviamo a rendere i cambiamenti più fluidi studiando e sfruttando la proprietà `transition`
 
 ### RICHIESTE DA COMPLETARE:
 ✅ 1. 🔥 Icona fuoco nella prima stat card
