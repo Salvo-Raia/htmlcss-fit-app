@@ -2,7 +2,7 @@
 
 Nome repo: `htmlcss-fit-app` 
 
-### Consegna
+## Consegna
 
 Oggi proviamo un’esperienza che quasi tutti gli sviluppatori junior si trovano ad affrontare al loro primo giorno di lavoro: modificare del codice scritto da altri! 
 
@@ -31,6 +31,7 @@ La lista delle modifiche richieste si trova nel file readme.md della cartella ch
 Proviamo a rendere i cambiamenti più fluidi studiando e sfruttando la proprietà `transition`
 
 ### RICHIESTE DA COMPLETARE:
+
 ✅ 1. 🔥 Icona fuoco nella prima stat card
 
 Aggiungere l'emoji "🔥" sopra il numero nella prima carta delle statistiche (quella delle calorie)
@@ -78,7 +79,7 @@ Il primo link della navigazione deve apparire sempre "attivo" (come se fosse la 
 
 Aggiungere virgolette decorative (") sopra a sinistra e sotto a destra della citazione, con opacità ridotta.
 
-SUGGERIMENTI:
+**SUGGERIMENTI**
 
 Usa selettori come `:first-child`, `:nth-child()`, `:last-child`
 Ricorda che `:hover` e `:focus` sono pseudo-classi
@@ -87,5 +88,6 @@ Per centrare contenuto in pseudo-elementi usa `position: absolute` e `translate`
 
 Buon coding! 💪
 
-### Bonus
+**Bonus**
+
 Provare a rendere i cambiamenti più fluidi studiando e sfruttando la proprietà `transition`
