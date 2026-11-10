@@ -1,93 +1,72 @@
-# Esercizio: FitApp
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
 
-Nome repo: `htmlcss-fit-app` 
+# 🎓 Exercise 05/50 - FitApp
 
-## Consegna
+Modifying an existing application by implementing CSS changes without altering its original HTML structure.
 
-Oggi proviamo un’esperienza che quasi tutti gli sviluppatori junior si trovano ad affrontare al loro primo giorno di lavoro: modificare del codice scritto da altri! 
+## 📌 Project Overview
 
-Siete stati assunti da un’azienda che vi chiede di apportare delle modifiche alla loro app. Tuttavia, dovrete apportare queste modifiche **senza poter modificare l’HTML!**
+| Property | Details |
+|:--|:--|
+| Repository | htmlcss-fit-app |
+| Category | Boolean Tech Academy |
+| Type | Exercise |
+| Exercise | 05/50 |
 
-La lista delle modifiche richieste si trova nel file readme.md della cartella che trovate in allegato. 
+## 🎯 Assignment
 
-**Regole**
+Today we'll explore an experience that almost every junior developer faces on their first day at work: modifying code written by someone else!
 
-* Scaricate la cartella in allegato e agganciate subito un repo.
+You've been hired by a company that asks you to make changes to its app. However, you'll have to implement these changes **without modifying the HTML!**
 
-* Come prima cosa è obbligatorio fare un commit dei file così come sono.
+The list of requested modifications can be found in the `readme.md` file included in the provided project folder.
 
-* Subito dopo, collegate il file `solutions.css` nel file `index.html` ; questa sarà l’unica modifica al file HTML che potrete apportare.
+### 📋 Rules
 
-* Seguendo le indicazioni che trovate nel file `readme.md`, provate le vostre soluzioni scrivendole all’interno del file `solutions.css`.
+- Download the provided project folder and immediately initialize a Git repository.
+- As a first step, commit the original files exactly as they are.
+- Immediately afterwards, link the `solutions.css` file in `index.html`. This will be the only modification you're allowed to make to the HTML file.
+- Follow the instructions in the provided `readme.md` file and implement your solutions inside `solutions.css`.
 
-**Suggerimenti e Note**
+### 🔎 Requested Changes
 
-* Per gli pseudo-elementi `::before` e `::after` non dimenticate `content`
+1. **🔥 Fire icon in the first stat card** — Add the 🔥 emoji above the number in the first statistics card (calories).
+2. **🌟 Highlight the third stat card** — Apply a blue-purple gradient background and white text to the third statistics card (workout minutes).
+3. **✨ Hover effect on stat cards** — Make every statistics card move up by 5px and increase its shadow on hover.
+4. **📌 Highlight the second workout plan** — Add a 5px orange left border and a very light yellow background to the second workout plan (Strength and Endurance).
+5. **🟢 Green borders for the first and last exercises** — Apply a green left border and a very light green background to the first and last exercises in the list.
+6. **⚡ Lightning icons on even exercises** — Add the ⚡ emoji at the beginning of the names of even-numbered exercises (2nd and 4th).
+7. **🎯 Input and select focus styles** — Give input and select fields a blue border and blue shadow when focused.
+8. **🎯 Smooth focus transitions** — Add a smooth transition to the focus effect.
+9. **🔘 Button improvements** — Make the "Save Goals" button move up by 2px on hover, change its background color, and add a blue shadow.
+10. **📊 Progress bar percentage** — Display "65%" in white inside the progress bar, aligned to the right.
+11. **🧭 Navigation hover effect** — Give navigation links a darker background and blue text on hover.
+12. **🧭 Active navigation link** — Make the first navigation link always appear active, as if it were the current page.
+13. **💭 Decorative quotation marks** — Add decorative quotation marks above the left side and below the right side of the quote, with reduced opacity.
 
-* Per centrare contenuto in pseudo-elementi usate `position` e `translate`
+### 💡 Suggestions & Notes
 
-**Bonus**
+- Use selectors such as `:first-child`, `:nth-child()` and `:last-child`.
+- Remember that `:hover` and `:focus` are pseudo-classes.
+- When using the `::before` and `::after` pseudo-elements, don't forget the `content` property.
+- To position content inside pseudo-elements, use `position: absolute` and `translate`.
 
-Proviamo a rendere i cambiamenti più fluidi studiando e sfruttando la proprietà `transition`
+### ⭐ Bonus
 
-### RICHIESTE DA COMPLETARE:
+Try to make the changes smoother by exploring and using the CSS `transition` property.
 
-✅ 1. 🔥 Icona fuoco nella prima stat card
+## 🛠️ Technologies
 
-Aggiungere l'emoji "🔥" sopra il numero nella prima carta delle statistiche (quella delle calorie)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-✅ 2. 🌟 Evidenziare la terza stat card
+## 💡 What I Learned
 
-Cambiare lo sfondo della terza carta statistiche (minuti di allenamento) con un gradiente blu-viola (non è necessario che sia identica allo screenshot di soluzione) e testo bianco
+- Working with an existing codebase without modifying its original HTML structure.
+- Using CSS pseudo-classes such as `:hover`, `:focus`, `:first-child`, `:nth-child()` and `:last-child`.
+- Creating decorative content with the `::before` and `::after` pseudo-elements.
+- Applying gradients, shadows, borders and background colors.
+- Using CSS transitions to create smoother interactions.
 
-✅ 3. ✨ Effetto hover sulle stat cards
+## ©️ Credits
 
-Quando si passa il mouse sopra una qualsiasi carta statistiche, deve sollevarsi di 5px e aumentare l'ombra
-
-✅ 4. 📌 Evidenziare il secondo piano allenamento
-
-Aggiungere un bordo arancione a sinistra (5px) e Cambiare lo sfondo in un giallo molto chiaro al secondo workout plan (Forza e Resistenza)
-
-✅ 5. 🟢 Bordi verdi per primo e ultimo esercizio
-
-Il primo e ultimo esercizio nella lista devono avere il bordo sinistro verde e sfondo verde molto chiaro
-
-✅ 6. ⚡ Icona fulmine negli esercizi pari
-
-Aggiungere l'emoji "⚡" all'inizio del nome degli esercizi in posizione pari (2° e 4°)
-
-✅ 7-8. 🎯 Focus sui campi input
-
-Quando un campo input o select riceve il focus, deve avere bordo blu e ombra blu
-Aggiungere una transizione fluida per l'effetto
-
-✅ 9. 🔘 Miglioramenti al button
-
-Il button "Salva Obiettivi" deve sollevarsi di 2px quando ci passi sopra il mouse
-Cambiare anche il colore di sfondo e Aggiungere un'ombra blu
-
-✅ 10. 📊 Percentuale nella barra di progresso
-
-Mostra "65%" in bianco dentro la barra di progresso, allineato a destra
-
-✅ 11-12. 🧭 Migliorie alla navigazione
-
-Aggiungere effetto hover sui link di navigazione (sfondo più scuro e testo blu)
-Il primo link della navigazione deve apparire sempre "attivo" (come se fosse la pagina corrente)
-
-✅ 13. 💭 Virgolette alla citazione
-
-Aggiungere virgolette decorative (") sopra a sinistra e sotto a destra della citazione, con opacità ridotta.
-
-**SUGGERIMENTI**
-
-Usa selettori come `:first-child`, `:nth-child()`, `:last-child`
-Ricorda che `:hover` e `:focus` sono pseudo-classi
-Per gli pseudo-elementi `::before` e `::after` non dimenticare `content`
-Per centrare contenuto in pseudo-elementi usa `position: absolute` e `translate`
-
-Buon coding! 💪
-
-**Bonus**
-
-Provare a rendere i cambiamenti più fluidi studiando e sfruttando la proprietà `transition`
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
