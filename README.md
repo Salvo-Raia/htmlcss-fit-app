@@ -29,6 +29,8 @@ Immediately afterwards, link the `solutions.css` file in `index.html`. This will
 
 Follow the instructions in the provided `readme.md` file and implement your solutions inside `solutions.css`.
 
+#### Instructions
+
 1. **Fire icon in the first stat card** - Add the "🔥" emoji above the number in the first statistics card (calories).
 2. **Highlight the third stat card** - Apply a blue-purple gradient background and white text to the third statistics card (workout minutes).
 3. **Hover effect on stat cards** - Make every statistics card move up by 5px and increase its shadow on hover.
