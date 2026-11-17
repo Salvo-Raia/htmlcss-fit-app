@@ -1,10 +1,10 @@
 ![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 05/50: FitApp
+# Exercise 05/50: FitApp
 
 Modifying an existing application by implementing CSS changes without altering its original HTML structure.
 
-## 📌 Project Overview
+## Project Overview
 
 | Property | Details |
 |:--|:--|
@@ -13,7 +13,7 @@ Modifying an existing application by implementing CSS changes without altering i
 | Type | Exercise |
 | Exercise | 05/50 |
 
-## 🎯 Assignment
+## Assignment
 
 Today we'll explore an experience that almost every junior developer faces on their first day at work: modifying code written by someone else!
 
@@ -27,7 +27,7 @@ Immediately afterwards, link the `solutions.css` file in `index.html`. This will
 
 Follow the instructions in the provided `readme.md` file and implement your solutions inside `solutions.css`.
 
-#### Instructions
+### Instructions
 
 1. **Fire icon in the first stat card** - Add the "🔥" emoji above the number in the first statistics card (calories).
 2. **Highlight the third stat card** - Apply a blue-purple gradient background and white text to the third statistics card (workout minutes).
@@ -54,11 +54,11 @@ Follow the instructions in the provided `readme.md` file and implement your solu
 
 Try to make the changes smoother by exploring and using the CSS `transition` property.
 
-## 🛠️ Technologies
+## Technologies
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
 
-## 🧠 What I learned
+## What I learned
 
 - Working with an existing codebase without modifying its original HTML structure.
 - Using CSS pseudo-classes such as `:hover`, `:focus`, `:first-child`, `:nth-child()` and `:last-child`.
@@ -66,6 +66,6 @@ Try to make the changes smoother by exploring and using the CSS `transition` pro
 - Applying gradients, shadows, borders and background colors.
 - Using CSS transitions to create smoother interactions.
 
-## ©️ Credits
+## Credits
 
 Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025-2026).
