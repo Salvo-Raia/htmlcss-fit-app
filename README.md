@@ -27,7 +27,7 @@ Immediately afterwards, link the `solutions.css` file in `index.html`. This will
 
 Follow the instructions in the provided `readme.md` file and implement your solutions inside `solutions.css`.
 
-**Instructions**
+#### Instructions
 
 1. **Fire icon in the first stat card** - Add the "🔥" emoji above the number in the first statistics card (calories).
 2. **Highlight the third stat card** - Apply a blue-purple gradient background and white text to the third statistics card (workout minutes).
@@ -43,16 +43,16 @@ Follow the instructions in the provided `readme.md` file and implement your solu
 12. **Active navigation link** - Make the first navigation link always appear active, as if it were the current page.
 13. **Decorative quotation marks** - Add decorative quotation marks above the left side and below the right side of the quote, with reduced opacity.
 
-**Notes**
+#### Bonus
+
+Try to make the changes smoother by exploring and using the CSS `transition` property.
+
+##### Notes
 
 - Use selectors such as `:first-child`, `:nth-child()` and `:last-child`.
 - Remember that `:hover` and `:focus` are pseudo-classes.
 - When using the `::before` and `::after` pseudo-elements, don't forget the `content` property.
 - To position content inside pseudo-elements, use `position: absolute` and `translate`.
-
-**Bonus**
-
-Try to make the changes smoother by exploring and using the CSS `transition` property.
 
 ## Technologies
 
