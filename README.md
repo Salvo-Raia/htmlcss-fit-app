@@ -6,12 +6,9 @@ Modifying an existing application by implementing CSS changes without altering i
 
 ## Project Overview
 
-| Property | Details |
-|:--|:--|
-| Repository | htmlcss-fit-app |
-| Category | Boolean Tech Academy |
-| Type | Exercise |
-| Exercise | 05/50 |
+| Repository | Project | Category | Main Focus | Exercise |
+|:--|:--|:--|:--|:--|
+| htmlcss-fit-app | FitApp | Exercise | CSS selectors & Pseudo-classes | 05/50 |
 
 ## Assignment
 
@@ -43,7 +40,7 @@ Follow the instructions in the provided `readme.md` file and implement your solu
 12. **Active navigation link** - Make the first navigation link always appear active, as if it were the current page.
 13. **Decorative quotation marks** - Add decorative quotation marks above the left side and below the right side of the quote, with reduced opacity.
 
-#### Bonus
+#### Bonus challenge
 
 Try to make the changes smoother by exploring and using the CSS `transition` property.
 
