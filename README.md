@@ -4,7 +4,7 @@
 
 Modifying an existing application by implementing CSS changes without altering its original HTML structure.
 
-## Project Overview
+## Project overview
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
