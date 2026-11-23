@@ -8,7 +8,7 @@ Modifying an existing application by implementing CSS changes without altering i
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| htmlcss-fit-app | FitApp | Exercise | CSS selectors & Pseudo-classes | 05/50 |
+| htmlcss-fit-app | FitApp | Exercise | CSS selectors, pseudo-classes | 05/50 |
 
 ## Assignment
 
