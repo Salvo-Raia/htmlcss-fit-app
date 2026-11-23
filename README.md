@@ -20,7 +20,7 @@ The list of requested modifications can be found in the `readme.md` file include
 
 Download the provided project folder and immediately initialize a Git repository. As a first step, commit the original files exactly as they are.
 
-Immediately afterwards, link the `solutions.css` file in `index.html`. This will be the only modification you're allowed to make to the HTML file.
+Immediately afterwards, link the `solutions.css` file to `index.html`. This will be the only modification you're allowed to make to the HTML file.
 
 Follow the instructions in the provided `readme.md` file and implement your solutions inside `solutions.css`.
 
